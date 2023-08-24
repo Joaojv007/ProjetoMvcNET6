@@ -1,0 +1,17 @@
+﻿@model ProjetoMvcNET6.Models.UserViewModel
+
+@*Interessante pois desativa o Layout padrão*@
+@{
+    Layout = null;
+}
+
+<section>
+    <h1>Autenticação</h1>
+    <input type="text" name="email" value="" placeholder="Username/Email" />
+    <input type="password" name="password" value=""  placeholder="Password"/>
+    <a href="#" >Esqueceu a senha?</a>
+
+    <button>Login</button>
+
+    <label>Não tem conta?</label>  <a href="#" >Crie aqui</a>
+</section>
